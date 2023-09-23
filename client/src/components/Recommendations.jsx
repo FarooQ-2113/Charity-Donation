@@ -7,14 +7,14 @@ const Recommendations = () => {
   // {/* TODO: Add Recommended cards logic here */}
   const { data } = useQuery(QUERY_ME);
   const { data: allCharities } = useQuery(ALL_CHARITIES);
-  const savedCharities = data?.me?.charities || [];
+  const savedCharities = data.me?.charities || [];
   console.log(savedCharities);
 
   return (
     <div className="rounded-lg px-4">
       <h1 className="mt-10 py-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         Your Recommendations
-      </h1> 
+      </h1>
       <CardRec />
     </div>
   );

@@ -19,9 +19,9 @@ db.once("open", async () => {
 
     console.log("-----CATEGORIES SEEDED-----");
 
-    await charity && charity.deleteMany({});
+    await Charity.deleteMany({});
     // linking categoryid with charities data
-    await charity && charity.create([
+    await Charity.create([
       {
         ...charitySeeds[0],
         categories: [categories[0]._id],

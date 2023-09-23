@@ -20,9 +20,7 @@ const charitySchema = new Schema({
   ein: {
     type: String, 
   },
-  Amount: {
-    type: String, 
-  },
+  
   categories: [
     {
       type: Schema.Types.ObjectId,
