@@ -1,7 +1,5 @@
 # Charity Donation Platform
 
-![Platform Logo](your-logo.png) <!-- Include a logo or relevant image here -->
-
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
