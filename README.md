@@ -36,7 +36,7 @@ List any software or dependencies that users need to have installed before they 
 ### Installation
 Provide step-by-step instructions on how to install and set up your platform. For example:
 
-1. Clone the repository: `git clone https://github.com/yourusername/charity-donation-platform.git`
+1. Clone the repository: `git clone https://github.com/FarooQ-2113/charity-donation-platform.git`
 2. Navigate to the project directory: `cd charity-donation-platform`
 3. Install dependencies: `npm install`
 4. Configure environment variables (if applicable).
